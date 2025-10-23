@@ -1,0 +1,87 @@
+\documentclass{article}
+
+%Paquetes
+\PassOptionsToPackage{table,dvipsnames,x11names}{xcolor}
+\usepackage[spanish]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{textcomp} 
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{twemojis}
+\usepackage{logix}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{float}
+\usetikzlibrary{calc,positioning,matrix}
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+\lstset{style=mystyle}
+
+%Documento
+\begin{document}
+  \begin{titlepage}
+  	\vspace*{0.8cm}
+  	\centering
+  	{\bfseries\huge Universidad Nacional Autónoma de México \par}
+  	\vspace{1cm}
+  	{\scshape\huge Facultad de Ciencias \par}
+  	\vspace{2cm}
+  	{\scshape\Huge Práctica 05 \par}
+  	\vfill
+		{\scshape\Large Lenguaje Ensamblador \par}
+  	\vspace{1.5cm}
+  	{\scshape\Large Organización y Arquitectura de Computadoras \par}
+  	\vfill
+  	{\scshape\Large Semestre: 2026-1\par}
+  	\vspace{1.5cm}
+		{\Large Fecha de entrega: 23 de Octubre de 2025\par}
+		\vspace{1.5cm}
+		{\Large Integrantes del equipo:\par}
+		\begin {itemize}
+		\item Monroy Flores Alexa Sofía
+		\item Salazar Enríquez Luis Alberto
+		\end{itemize}
+  \end{titlepage}
+
+	\newgeometry{left=1.8cm, right=2cm, top=2.8cm, bottom=2.4cm}
+	\pagestyle{fancy}
+	\fancyhead[RO,L]{\textbf{\makebox[\textwidth][r]{\ensuremath{\OutlineCurvedDiamond}Práctica 5\ensuremath{\LoopArrowRight}Monroy Flores\ensuremath{\parallel}Salazar Enriquez}}}
+	\section*{Preguntas}
+  \begin{enumerate}
+    \item \textbf{¿Que hacen las instrucciones de tipo FR y de tipo FI? Da algunos ejemplos de instrucciones de este tipo y menciona porque están separadas de las otras 3 principales.\\}
+    \item \textbf{¿Que es la Portabilidad de Arquitecturas (Cross-Architecture Porting)\\}
+    \item \textbf{¿Que son las arquitecturas x84 y x64? ¿Tienen un  ́unico lenguaje ensamblador?\\}
+    \item \textbf{En el contexto de los lenguajes de ensamblador, ¿Que es NASM? ¿Qué es MASM?\\}
+  \end{enumerate}
+  \section*{Referencias:}
+		\begin{itemize}
+			\item si
+		\end{itemize}
+	\restoregeometry
+\end{document}
