@@ -73,29 +73,29 @@
 	\pagestyle{fancy}
 	\fancyhead[RO,L]{\textbf{\makebox[\textwidth][r]{\ensuremath{\OutlineCurvedDiamond}Práctica 5\ensuremath{\LoopArrowRight}Monroy Flores\ensuremath{\parallel}Salazar Enriquez}}}
 	\section*{Preguntas}
-  \begin{enumerate}
+	\begin{enumerate}
     \item \textbf{¿Que hacen las instrucciones de tipo FR y de tipo FI? Da algunos ejemplos de instrucciones de este tipo y menciona porque están separadas de las otras 3 principales.\\}
-	Las instrucciones de FR son instrucciones las cuales trabajan con datos los cuales ya estan en los registros, pero dichos datos son de punto flotante.
-	Las Instrucciones de FI trabajan con datos que son de registros y que son inmediatos, pero tienen la diferencia que también trabajan con datos de punto flotante
-	ejemplos de este tipo de instrucciones:
-	add.d 
-	add.s
-	l.s
-	l.d
-	mul.d
-	mul.s
-	Porque las otras instrucciones trabajan con números enteros, para este tipo de instrucciones cuentan con un coprocesador aparte dedicado a ellas, las cuales también tienen un formato diferente de 		instrucción.
-
+	Las instrucciones de \textbf{FR} son instrucciones las cuales trabajan con datos los cuales ya estan en los registros, pero dichos datos son de punto flotante.\\
+	Las Instrucciones de \textbf{FI} trabajan con datos que son de registros y que son inmediatos, pero tienen la diferencia que también trabajan con datos de punto flotante\\
+	Ejemplos de este tipo de instrucciones:\\
+	\begin{itemize}
+		\item add.d 
+		\item add.s
+		\item l.s
+		\item l.d
+		\item mul.d
+		\item mul.s
+	\end{itemize}
+	Porque las otras instrucciones trabajan con números enteros, para este tipo de instrucciones cuentan con un coprocesador aparte dedicado a ellas, las cuales también tienen un formato diferente de instrucción.
     \item \textbf{¿Que es la Portabilidad de Arquitecturas (Cross-Architecture Porting)\\}
-    \item \textbf{¿Que son las arquitecturas x84 y x64? ¿Tienen un  ́unico lenguaje ensamblador?\\}
+		Es el proceso de adaptar un software para correr en una arquitectura diferente.
+    \item \textbf{¿Que son las arquitecturas x86 y x64? ¿Tienen un único lenguaje ensamblador?\\}
+		La arquitectura x86 es de tipo CISC que permite ejecutar varias instrucciones en un ciclo haciendo a la CPU más flexible para numerosas tareas. Tiene un soporte de 32 bits.\\
+		La arquitectura x64 es una extensión compatible con versiones anteriores de x86. Proporciona un nuevo modo de 64 bits y un modo heredado de 32 bits, que es idéntico a x86.\\
+		En cuanto al lenguaje ensamblador de x86 y x64, estos son diferentes. Estas arquitecturas no compaten un único lenguaje ensamblador.
     \item \textbf{En el contexto de los lenguajes de ensamblador, ¿Que es NASM? ¿Qué es MASM?\\}
-	NASM en un software para programar en ensamblador en una arquitectura de x86 CPU que es de arquitectura portable a plataforma modernas, como tambien generacion de codigo para plataformas nuevas y viejas.
+	NASM en un software para programar en ensamblador en una arquitectura de x86 CPU que es de arquitectura portable a plataforma modernas, como tambien generacion de codigo para plataformas nuevas y viejas.\\
 	MASM es en macroensamblador de Microsoft para arquitecturas de 32 y 62 bits, este brinda un mayor control en el hardware y tambien disminuye la sobrecarga del código en tiempo y en memoria.
-
-  \end{enumerate}
-  \section*{Referencias:}
-		\begin{itemize}
-			\item si
-		\end{itemize}
+	\end{enumerate}
 	\restoregeometry
 \end{document}
